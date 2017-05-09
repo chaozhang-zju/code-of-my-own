@@ -15,3 +15,7 @@ print(torch.add(x,x))
 x = x+x
 x.add_(x)
 print(x)
+
+
+y = torch.ones(5,5)
+print(y)
